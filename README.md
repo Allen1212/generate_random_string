@@ -1,5 +1,5 @@
 # generate_random_strings
-Generate the random strings of different types, length, number.
+Generate the random strings of different types, length, number, and write them into the txt file.
 
 ## Type of String
 
