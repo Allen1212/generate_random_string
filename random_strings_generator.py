@@ -20,7 +20,7 @@ def random_strings_type(type_index, randomlength):
     return str_list
 
 
-def generate_random_strings(type_n, randomlength, numbers):
+def random_strings_generator(type_n, randomlength, numbers):
     strings = []
     if randomlength == 0:
         for index in range(numbers):
@@ -55,7 +55,7 @@ type_index = int(input('Please choose the type of the string:\n'
 
 randomlength = int(input('Please input the length of random string(0 means random size of string from 1 to 20):\n'))
 numbers = int(input('Please input the number of random string:\n'))
-generate_random_strings(type_index, randomlength, numbers)
+random_strings_generator(type_index, randomlength, numbers)
 
 
 
