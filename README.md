@@ -3,7 +3,8 @@ Generate the random strings of different types, length, number.
 
 ## Type of String
 
-According to your requirment, you can input the type index of random string from the list below.
+According to your requirment, you can input the type index of random string from the list below.  
+
 0 &rArr;  digits  
 1 &rArr;  letters  
 2 &rArr;  lowercase  
