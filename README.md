@@ -4,13 +4,13 @@ Generate the random strings of different types, length, number.
 ## Type of String
 
 According to your requirment, you can input the type index of random string from the list below.
-- [x]  digits
-- [x]  letters
-- [x]  lowercase
-- [x]  uppercase
-- [x]  digits + letters
-- [x]  digits + lowercas
-- [x]  digits + uppercase
+0 &rArr;  digits  
+1 &rArr;  letters  
+2 &rArr;  lowercase  
+3 &rArr;  uppercase  
+4 &rArr;  digits + letters    
+5 &rArr;  digits + lowercas    
+6 &rArr;  digits + uppercase
 
 ## Length of String
 
