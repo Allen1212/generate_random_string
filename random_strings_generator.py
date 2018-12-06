@@ -24,7 +24,7 @@ def random_strings_generator(type_n, randomlength, numbers):
     strings = []
     if randomlength == 0:
         for index in range(numbers):
-            randomlength = random.randint(1, 20)
+            randomlength = random.randint(1, 60)
             # print(randomlength)
             random_str = ''.join(random_strings_type(type_n, randomlength))
             if not random_str in strings:
@@ -37,7 +37,7 @@ def random_strings_generator(type_n, randomlength, numbers):
                 strings.append(random_str)
                 # print(strings)
 
-    with open("random_strings_file.txt", "w") as f:
+    with open("random_strings_file_%s.txt" % numbers, "w") as f:
         for item in strings:
             f.write('%s\n' % item)
         f.close()
@@ -56,6 +56,11 @@ type_index = int(input('Please choose the type of the string:\n'
 randomlength = int(input('Please input the length of random string(0 means random size of string from 1 to 20):\n'))
 numbers = int(input('Please input the number of random string:\n'))
 random_strings_generator(type_index, randomlength, numbers)
+
+# randomlength = 0
+# number = [50, 500, 5000, 50000]
+# for numbers in number:
+#     random_strings_generator(type_index, randomlength, numbers)
 
 
 
